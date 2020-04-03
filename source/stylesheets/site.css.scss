@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers|Montserrat&display=swap);
+
+body {
+  background-color: #ED6565;
+}
+
+.wrap {
+  padding: 0.5em;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0.25em;
+  padding: 0.25em;
+  text-align: center;
+  font-weight: normal;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 8em;
+  white-space: nowrap;
+  font-size: 12vw;
+  z-index: 1000;
+  font-family: 'Bangers', cursive;
+  text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.7);
+  -moz-transform: skew(0, -6.7deg);
+  -ms-transform: skew(0, -6.7deg);
+  -webkit-transform: skew(0, -6.7deg);
+  transform: skew(0, -6.7deg);
+  -moz-transition-property: font-size;
+  -o-transition-property: font-size;
+  -webkit-transition-property: font-size;
+  transition-property: font-size;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  border-bottom: 0.1em solid #FFF;
+}
+
+@media screen and (max-width: 50em) {
+  h1 {
+    font-size: 20vw;
+  }
+}
+
+div.main{
+  margin: 0 auto;
+  text-align: center;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.75em;
+  padding: 1em;
+  margin: 1em;
+}
